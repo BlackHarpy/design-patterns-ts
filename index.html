@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TypeScript Design Patterns</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    #main {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #upper-section {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #lower-section {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    #builder, #visitor, #facade, #memento, #mediator {
+        height: 450px;
+        width: 300px;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+</style>
+<body>
+
+<script src="./dist/bundle.js"></script>
+
+<div id="main">
+    <div id="upper-section">
+        <div id="builder">
+            <div style="text-align: center;">
+                <button id="builder-button" type="button">Run Builder Example</button>
+            </div>
+
+            <div id="builder-logs">
+
+            </div>
+            <div id="builder-json">
+
+            </div>
+        </div>
+        <div id="visitor">
+            <div style="text-align: center;">
+                <button id="visitor-button" type="button">Run Visitor Example</button>
+            </div>
+            <div id="visitor-logs">
+
+            </div>
+            <div id="visitor-json">
+
+            </div>
+        </div>
+        <div id="facade">
+            <div style="text-align: center;">
+                <button id="facade-button" type="button">Run Facade Example</button>
+            </div>
+            <div id="facade-logs">
+
+            </div>
+            <div id="facade-json">
+
+            </div>
+        </div>
+    </div>
+    <div id="lower-section">
+        <div id="memento">
+            <div style="text-align: center;">
+                <button id="memento-button" type="button">Run Memento Example</button>
+            </div>
+
+            <div id="memento-logs">
+
+            </div>
+            <div id="memento-json">
+
+            </div>
+        </div>
+        <!--<div id="mediator">-->
+            <!--<div style="text-align: center;">-->
+                <!--<button id="mediator-button" type="button">Run Mediator Example</button>-->
+            <!--</div>-->
+            <!--<div id="mediator-logs">-->
+
+            <!--</div>-->
+            <!--<div id="mediator-json">-->
+
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+</div>
+</body>
+</html>
